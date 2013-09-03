@@ -1,0 +1,2 @@
+maps_key_site=https://code.google.com/apis/console/
+maps_key=AIzaSyAnkMSQivodqu72brUtDoNyUFFjESD388c

@@ -1,0 +1,158 @@
+body {
+
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #000000;
+}
+
+#container{
+	width: 1280px;
+	height: 1024px;
+}
+
+#header{
+	position: absolute;
+	top:40px;
+	height: 75px; 
+	width:100%; 
+	background: #010013; 
+	margin: 0px;
+	padding: 0px;
+    opacity:0.7;
+}
+
+#footer{
+	position: absolute;
+	top:800px;
+	height: 100px; 
+	width:100%;
+	background: #010013; 
+	margin: 0px;
+	padding: 0px;
+}
+
+#circle {
+position: absolute;
+top: 48px;
+left: 100px;
+border:2px solid #ffffff;
+border-radius: 45px 45px 45px 45px;
+padding: 10px 8px 10px 8px;
+margin: 0; 
+font-size: 30px;
+color: #ffffff;
+}
+
+#circle_footer {
+position: absolute;
+top: 804px;
+left: 100px;
+border:2px solid #ffffff;
+border-radius: 45px 45px 45px 45px;
+padding: 10px 8px 10px 8px;
+margin: 0; 
+font-size: 30px;
+color: #ffffff;
+}
+
+#copy {
+
+position: absolute;
+top: 812px;
+left: 160px;
+padding: 10px 8px 10px 8px;
+margin: 0; 
+font-size: 15px;
+color: #ffffff;
+width: 100%;
+}
+
+#menu_div1{
+float: right;
+height: 30px;
+position: relative;
+top: 67px;
+border: medium none;
+display: inline-block;
+font: 12px/1.1em "Open Sans","sans-serif";
+margin: 0 auto;
+text-align: right;
+color: #FFFFFF;
+padding-right: 20px;
+}
+
+#menu_div2{
+float: left;
+border-right: 1px solid #FFFFFF;
+padding: 7px 5px;
+margin: 0;
+color: #FFFFFF;
+}
+
+#menu_div3{
+padding: 0 20px 0 19px;
+margin: 0;
+
+}
+
+#menu_p{
+padding: 0 10px;
+margin: 0;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+#menu_p:hover{
+padding: 0 10px;
+margin: 0;
+color: #ffcc66;
+transition: color 0.4s ease 0s;
+text-decoration: none;
+}
+
+
+#menu_p a:link {text-decoration: none}
+#menu_p a:visited {text-decoration: none}
+#menu_p a:active {text-decoration: none}
+
+
+.stepcarousel{
+	position: relative; 
+	border: 0px solid black;
+	height:100%;
+	width: 100%; 
+	top: 130px; 
+	margin: 0 auto;
+}
+
+.stepcarousel .belt{
+	position: absolute; 
+	top: 0;
+}
+
+.stepcarousel .panel{
+	margin: 3px; 
+	border: 0px solid #800000;
+    text-align: center;
+	padding: 0px;
+	background-color: #000000;
+	padding: 0px !important;
+	width:800px !important;
+	margin-left:240px; 
+	margin-right:240px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#content {
+	margin: 5px 5px 5px 5px;
+	overflow-y: auto !important; 
+	overflow-x: hidden !important; 
+	max-height: 640px;
+	background-color:#000000;
+}
+
+#fieldstyle{
+font: 15px/1.3em "Times","Times New Roman","serif";
+}
